@@ -32,5 +32,5 @@ for update_nbr in range (5):
     total_value += int(messagedata)
     print topic, messagedata
 
-print "Average messagedata value for topic '%s' was %dF" % (topicfilter, total_value / update_nbr)
+print "Average messagedata value for topic '%s' was %dF" % (topicfilter, total_value / (update_nbr + 1))
       
